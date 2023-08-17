@@ -1,0 +1,117 @@
+:root {
+    --main-color: rgb(252, 252, 252);
+    --main-border: white;
+    --link-color: rgb(255, 255, 255);
+    --main-background-color: rgb(36, 36, 36);
+    --main-text-color: white;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{height:100%}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+a {text-decoration: none; color: var(--link-color);}
+
+
+body {
+    color: var(--main-text-color);
+    color: var(--main-color);
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(112, 0, 164);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sport-timer {
+    margin: 30px 10px;
+    .sport-timer-content {
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        background-color: var(--main-background-color);
+        border-radius: 15px;
+        height: 70vh;
+    }
+    .sport-exercises {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .exercise {
+            .icon {
+                border: 2px solid var(--main-border);
+                background-color: rgb(255, 255, 255);
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;   
+            }
+            .exercise-button {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+    .stop-watch {
+        .time {
+            display: flex;
+            justify-content: space-around;
+            color: black;
+            font-size: 24px;
+            width: 200px;
+            height: 40px;
+            align-items: center;
+            background-color: white;
+            border-radius: 10px;
+            .timer-minute {
+            }
+            .timer-second {
+            }
+            .timer-millisecond {
+            }
+        }
+        .watch-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .timer-button {
+            
+            width: 30px;
+            height: 30px;
+        }
+        .timer-icon {
+            border-radius: 50%;
+            background-color: white;
+            width: 30px;
+            height: 30px;
+        }
+        .stop-watch-inputs {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            gap: 10px;
+            .stop-watch-input{
+                border-radius: 10px;
+                width: 40px;
+                height: 40px;
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+        
+    }
+    
+   
+    
+}
+
+
+

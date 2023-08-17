@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sport-timer">
+        <div class="container">
+            <div class="sport-timer-content">
+                <ul class="sport-exercises">
+                    <li class="exercise">
+                        <a class="exercise-button" id="pull-up-button">
+                            <img class="icon" src="./assets/gym.png" alt="">
+                        </a>
+                    </li>
+                    <li class="exercise">
+                        <a class="exercise-button">
+                            <img class="icon" src="./assets/push-ups.png" alt="">
+                        </a>
+                    </li>
+                    <li class="exercise">
+                        <a class="exercise-button">
+                            <img class="icon" src="./assets/plank.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="stop-watch">
+                    <div class="time">
+                        <span class="timer-minutes" id="timer-minutes">00</span>
+                        <span class="timer-seconds" id="timer-seconds">00</span>
+                        <span class="timer-milliseconds" id="timer-milliseconds">00</span>
+                    </div>
+                    <div class="watch-buttons">
+                        <a href="" class="timer-button"><img class="timer-icon" src="./assets/reset.png" id="stop-wath-reset" alt=""></a>
+                        <a href="" class="timer-button"><img class="timer-icon" src="./assets/play.png"  id="stop-wath-start" alt=""></a>
+                    </div>
+                    <div class="stop-watch-inputs">
+                        <input type="number" class="stop-watch-input input-minutes" placeholder="m" id="minutes-input">
+                        <input type="number" class="stop-watch-input input-seconds" placeholder="s" id="seconds-input">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
